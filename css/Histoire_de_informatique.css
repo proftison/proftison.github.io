@@ -1,0 +1,174 @@
+
+
+h1 
+{
+	text-align : center;
+}
+
+body 
+{
+	background-color : #00FFFF;
+}
+img 
+{
+	width : 200px;
+	height : 200px;
+	
+}
+
+.td_2
+{
+	border: 1px solid;
+	border-color : blue;
+	vertical-align:top;
+	padding-left : 20px;
+	padding-right : 20px;
+	
+	
+		
+}
+.td_3
+{
+	
+	border: 1px solid;
+	border-color : blue;
+	vertical-align:top;
+	padding-left : 20px;
+	padding-right : 20px;
+	width : 20%
+		
+}
+
+.td_4
+{
+	
+	border: 1px solid;
+	border-color : blue;
+	vertical-align:bottom;
+	text-align : right;
+	padding-left : 20px;
+	padding-right : 20px;
+	padding-bottom : 20px;
+	width : 20%
+		
+}
+
+#table_1
+{	
+	border: 2px solid;
+	border-color : blue;
+	width : 100%;
+	background-color : #E0FFFF;
+		
+}
+
+.flex-container {
+	display: flex;
+	/*align-items: stretch;*/
+	align-items: normal;
+	background-color: #f1f1f1;
+  }
+  
+.flex-container > div {
+	background-color: DodgerBlue;
+	color: white;
+	margin: 10px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 30px;
+  }
+
+  a:link {
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  a:visited {
+	color: pink;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+
+
+
+  button {
+	width:84px;
+	height:42px;
+	color: black;
+	background-color: grey;
+	text-decoration: none;
+  }
+
+  button:link {
+	color: green;
+	background-color: red;
+	text-decoration: none;
+}
+
+  button:visited {
+	color: pink;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+  button:hover {
+	color: red;
+	background-color: green;
+	text-decoration: none;
+  }
+  button:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: none;
+  }
+
+/*
+css pour le menu entete de page 
+*/
+  
+  ul {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	background-color: rgb(36, 51, 116);
+  }
+
+  li a {
+	display: block;
+	color: white;
+	padding: 10px; 
+	text-align:center;
+	font-size:25px;
+  }
+  
+  li a:hover {
+	background-color: #00FFFF;;
+	color: black;
+  }
+  
+  li {
+		/*float:left;*/
+		display: inline-block;
+		width : 10%;
+	}
+
+	div {
+
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: auto;
+		background-color: rgb(36, 51, 116);
+	  }
